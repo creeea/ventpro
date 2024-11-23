@@ -11,11 +11,12 @@ const Team = () => {
             <div className="team-icon">
               {/* You can add profile image here later */}
             </div>
-            <h3>Dominik Brun</h3>
-            <p className="team-position">Geschäftsführer</p>
+            <h3>Patrick Horat</h3>
+            <p className="team-position">Mitgründer</p>
+            <p className="team-email"><i>p.horat@ventpro.ch</i></p>
             <p className="team-description">
-              Mit über 10 Jahren Erfahrung in der Lüftungshygiene leitet 
-              Dominik Brun das Unternehmen mit Expertise und Innovation. 
+              Mit über 20 Jahren Erfahrung in Lüftungssysteme leitet 
+              Patrick Horat das Unternehmen mit Expertise und Innovation. 
               Er ist Ihr direkter Ansprechpartner für Projektanfragen und 
               technische Beratung.
             </p>
@@ -25,10 +26,11 @@ const Team = () => {
             <div className="team-icon">
               {/* You can add profile image here later */}
             </div>
-            <h3>Marco Brun</h3>
-            <p className="team-position">Technischer Leiter</p>
+            <h3>Joel Bachmann</h3>
+            <p className="team-position">Mitgründer</p>
+            <p className="team-email"><i>j.bachmann@ventpro.ch</i></p>
             <p className="team-description">
-              Als erfahrener Techniker koordiniert Marco Brun alle 
+              Als erfahrener Techniker koordiniert Joel Bachmann alle 
               Reinigungsprojekte und sorgt für die Qualitätssicherung. 
               Seine technische Expertise garantiert die professionelle 
               Durchführung aller Arbeiten.

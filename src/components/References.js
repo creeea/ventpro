@@ -1,20 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import './References.css';
 
+
 const referencesList = [
   {
     id: 1,
-    company: "ID Performance",
-    description: "Professionelle Reinigung der Lüftungsanlage in 5 Wohnungen in Udligenswil",
-    contact: "Hr. Müller",
-    image: "/images/reference1.jpg"  // Add your image path
+    company: "ID Performance AG",
+    description: "Professionelle Reinigung der Lüftungsanlage in 5 Wohnungen in Udligenswil.",
+    contact: "Manfred Moser",
+    image: "/id-performance.png"  // Add your image path
   },
   {
     id: 2,
-    company: "Flüma AG",
+    company: "Flüma Klima AG",
     description: "Aushilfe Komplette Wartung der Küchenabluftsysteme",
     contact: "Fr. Weber",
-    image: "/images/reference2.jpg"
+    image: "/flüma.png"
   },
   {
     id: 3,

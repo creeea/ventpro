@@ -11,7 +11,7 @@ function Services() {
             <img src={process.env.PUBLIC_URL + '/192hygiene.png'} alt="Hygiene Service" />
           </div>
           <h3>Reinigung</h3>
-          <p>Ein Mensch atmet täglich 12.000 Liter Luft ein - 90% davon in Innenräumen. Verschmutzte Lüftungsanlagen werden zu stillen Gesundheitsrisiken, wenn sich Mikroorganismen, Bakterien und Schimmelpilze ungehindert vermehren. Unsere professionelle RLT-Anlagenreinigung verhindert die Verteilung dieser Schadstoffe in Ihrer Atemluft. Denn gesunde Raumluft ist nicht nur Komfort, sondern fundamentales Grundbedürfnis – ob im Büro, in der Produktion oder zu Hause.</p>
+          <p>Ein Mensch atmet täglich 12.000 Liter Luft ein - 90% davon in Innenräumen. Verschmutzte Lüftungsanlagen werden zu stillen Gesundheitsrisiken, wenn sich Mikroorganismen, Bakterien und Schimmelpilze ungehindert vermehren. Unsere professionelle RLT-Anlagenreinigung verhindert die Verteilung dieser Schadstoffe in Ihrer Atemluft. Wir garantieren gesunde Raumluft – ob im Büro, in der Produktion oder zu Hause!</p>
         </div>
         <div className="service-card">
         <div className="service-icon">
