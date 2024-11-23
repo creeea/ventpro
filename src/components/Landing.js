@@ -3,6 +3,7 @@ import './Landing.css';
 import Services from './Services';
 import Team from './Team';
 import References from './References';
+
 function Landing() {
   return (
     <>
@@ -22,16 +23,12 @@ function Landing() {
               <div className="segment"></div>
               <div className="segment"></div>
               <div className="segment"></div>
-              <div className="air-dots">
-                {[...Array(64)].map((_, i) => (
-                  <div key={i} className="dot"></div>
-                ))}
-              </div>
             </div>
             <div className="circle-text">
               <h2>VentPro</h2>
             </div>
           </div>
+          <div className="hero-separator"></div>
         </div>
       </div>
       <Services />
