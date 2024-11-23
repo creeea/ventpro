@@ -8,20 +8,24 @@ function Services() {
       <div className="services-grid">
         <div className="service-card">
           <div className="service-icon">
-            <img src={process.env.PUBLIC_URL + '/hygiene.png'} alt="Hygiene Service" />
+            <img src={process.env.PUBLIC_URL + '/192hygiene.png'} alt="Hygiene Service" />
           </div>
-          <h3>Installation</h3>
-          <p>Professsionelle Installation von Lüftungssystemen für Gewerbe und Industrie</p>
+          <h3>Reinigung</h3>
+          <p>Ein Mensch atmet täglich 12.000 Liter Luft ein - 90% davon in Innenräumen. Verschmutzte Lüftungsanlagen werden zu stillen Gesundheitsrisiken, wenn sich Mikroorganismen, Bakterien und Schimmelpilze ungehindert vermehren. Unsere professionelle RLT-Anlagenreinigung verhindert die Verteilung dieser Schadstoffe in Ihrer Atemluft. Denn gesunde Raumluft ist nicht nur Komfort, sondern fundamentales Grundbedürfnis – ob im Büro, in der Produktion oder zu Hause.</p>
         </div>
         <div className="service-card">
-          <div className="service-icon">⚡</div>
-          <h3>Wartung</h3>
-          <p>Regelmäßige Wartung und Optimierung bestehender Systeme</p>
+        <div className="service-icon">
+        <img src={process.env.PUBLIC_URL + '/192inspektion.png'} alt="Inspektion Service" />
+        </div>
+          <h3>Inspektion</h3>
+          <p>Kritische Keimbelastungen in RLT-Anlagen bleiben oft unentdeckt – mit schwerwiegenden Folgen für Gesundheit und Betriebssicherheit. Unsere nach VDI 6022 zertifizierten Hygieneinspektionen decken durch mikrobiologische Proben Grenzwertüberschreitungen auf und sichern die Einhaltung gesetzlicher Standards. Wissenschaftlich fundiert, normgerecht, präventiv.</p>
         </div>
         <div className="service-card">
-          <div className="service-icon">📋</div>
-          <h3>Planung</h3>
-          <p>Individuelle Planung und Beratung für Ihr Lüftungsprojekt</p>
+          <div className="service-icon">
+        <img src={process.env.PUBLIC_URL + '/192zusammenarbeit.png'} alt="Beratung Service" />
+        </div>
+          <h3>Beratung</h3>
+          <p>Ihr Projekt beginnt mit einem persönlichen Gespräch. Gemeinsam entwickeln wir die optimale Strategie für Ihre Anlage. Unser spezialisiertes Team, modernste Technik und jahrelange Erfahrung garantieren einen reibungslosen Ablauf – angepasst an Ihre individuellen Anforderungen und Betriebszeiten. Unkompliziert, transparent, effektiv.</p>
         </div>
       </div>
     </section>

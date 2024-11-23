@@ -6,7 +6,7 @@
   position: relative;
   overflow: hidden;
   margin-top: 0;
-  padding-top: 80px;
+  padding-top: calc(35vh - 80px);
 }
 
 .hero::before {
@@ -469,7 +469,7 @@
     0 0 10px rgba(0, 174, 239, 0.6),
     0 0 20px rgba(0, 174, 239, 0.4),
     0 0 40px rgba(0, 174, 239, 0.2);
-  animation: glowLine 2s ease-in-out infinite;
+  animation: glowLine 10s ease-in-out infinite;
 }
 
 @keyframes glowLine {
