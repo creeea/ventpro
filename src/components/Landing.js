@@ -1,10 +1,12 @@
 import React from 'react';
 import './Landing.css';
-
+import Services from './Services';
+import Team from './Team';
+import References from './References';
 function Landing() {
   return (
     <>
-      <div className="hero">
+      <div className="hero" id="hero">
         <div className="hero-content">
           <div className="hero-text">
             <h1>Ihr Fachexperte für Lüftungssysteme</h1>
@@ -32,27 +34,9 @@ function Landing() {
           </div>
         </div>
       </div>
-
-      <section className="services-section">
-        <h2>Unsere Dienstleistungen</h2>
-        <div className="services-grid">
-          <div className="service-card">
-            <div className="service-icon">🔧</div>
-            <h3>Installation</h3>
-            <p>Professionelle Installation von Lüftungssystemen für Gewerbe und Industrie</p>
-          </div>
-          <div className="service-card">
-            <div className="service-icon">⚡</div>
-            <h3>Wartung</h3>
-            <p>Regelmäßige Wartung und Optimierung bestehender Systeme</p>
-          </div>
-          <div className="service-card">
-            <div className="service-icon">📋</div>
-            <h3>Planung</h3>
-            <p>Individuelle Planung und Beratung für Ihr Lüftungsprojekt</p>
-          </div>
-        </div>
-      </section>
+      <Services />
+      <References />
+      <Team />
     </>
   );
 }

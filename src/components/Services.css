@@ -1,6 +1,6 @@
 .services-section {
   padding: 100px 20px;
-  background-color: #1a1a1a;
+  /*background-color: #1a1a1a;*/
   color: #fff;
 }
 
@@ -8,7 +8,7 @@
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 60px;
-  color: #00AEEF;
+  color: white;
 }
 
 .services-grid {

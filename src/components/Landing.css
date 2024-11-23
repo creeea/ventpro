@@ -2,10 +2,10 @@
   min-height: 100vh;
   display: flex;
   align-items: flex-start;
-  padding: 120px 20px 0 20px;
+  padding: 20px;
   position: relative;
   overflow: hidden;
-  margin-top: 80px;
+  margin-top: 0;
 }
 
 .hero-content {
@@ -17,8 +17,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 180px;
-  margin-top: 300px;
+  padding-top: 80px;
+  margin-top: calc(150vh - 80px);  /* Subtracts header/navbar height from viewport height */
 }
 
 .hero-text {

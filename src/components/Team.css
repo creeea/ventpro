@@ -1,15 +1,29 @@
 .team {
+  width: 100%;
   padding: 100px 20px;
   background-color: #121212;
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
 .team-container {
+  width: 100%;
   max-width: 1400px;
   margin: 0 auto;
-  width: 100%;
+  position: relative;
+}
+
+.team * {
+  position: relative;
+}
+
+.team-member,
+.team-content,
+.team-header {
+  position: relative;
 }
 
 .team h2 {

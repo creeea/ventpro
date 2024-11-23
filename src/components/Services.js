@@ -7,9 +7,9 @@ function Services() {
       <h2>Unsere Dienstleistungen</h2>
       <div className="services-grid">
         <div className="service-card">
-          <div className="service-icon">🔧</div>
+          <div className="service-icon">🔧!</div>
           <h3>Installation</h3>
-          <p>Professionelle Installation von Lüftungssystemen für Gewerbe und Industrie</p>
+          <p>Professsionelle Installation von Lüftungssystemen für Gewerbe und Industrie</p>
         </div>
         <div className="service-card">
           <div className="service-icon">⚡</div>
