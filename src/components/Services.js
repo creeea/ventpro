@@ -7,7 +7,9 @@ function Services() {
       <h2>Unsere Dienstleistungen</h2>
       <div className="services-grid">
         <div className="service-card">
-          <div className="service-icon">🔧!</div>
+          <div className="service-icon">
+            <img src={process.env.PUBLIC_URL + '/hygiene.png'} alt="Hygiene Service" />
+          </div>
           <h3>Installation</h3>
           <p>Professsionelle Installation von Lüftungssystemen für Gewerbe und Industrie</p>
         </div>

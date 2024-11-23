@@ -1,12 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Landing.css';
 import Services from './Services';
 import Team from './Team';
 import References from './References';
 
 function Landing() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <>
+      <nav className="navbar">
+        <div className="navbar-container">
+          <div className="navbar-logo">
+            
+          </div>
+          <div className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
+            <a href="#services" onClick={() => setIsMenuOpen(false)}>Dienstleistungen</a>
+            <a href="#references" onClick={() => setIsMenuOpen(false)}>Referenzen</a>
+            <a href="#team" onClick={() => setIsMenuOpen(false)}>Team</a>
+          </div>
+          <div className="mobile-menu-button" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+
       <div className="hero" id="hero">
         <div className="hero-content">
           <div className="hero-text">
@@ -27,13 +47,24 @@ function Landing() {
             <div className="circle-text">
               <h2>VentPro</h2>
             </div>
+            <div className="air-dots">
+              {[...Array(40)].map((_, i) => (
+                <div key={i} className="air-dot"></div>
+              ))}
+            </div>
           </div>
           <div className="hero-separator"></div>
         </div>
       </div>
-      <Services />
-      <References />
-      <Team />
+      <div id="services">
+        <Services />
+      </div>
+      <div id="references">
+        <References />
+      </div>
+      <div id="team">
+        <Team />
+      </div>
     </>
   );
 }
