@@ -5,7 +5,7 @@ const Team = () => {
   return (
     <div className="team" id="team">
       <div className="team-container">
-        <h2>Unser Team</h2>
+        <h2>Unschlagbares Team</h2>
         <div className="team-grid">
           <div className="team-item">
             <div className="team-icon">

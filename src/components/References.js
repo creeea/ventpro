@@ -19,24 +19,24 @@ function AnimatedCounter({ endValue, suffix = '' }) {
 const referencesList = [
   {
     id: 1,
-    company: "ID Performance AG",
-    description: "Professionelle Reinigung der Lüftungsanlage in 5 Wohnungen in Udligenswil.",
-    contact: "Manfred Moser",
-    image: "/id-performance.png"  // Add your image path
-  },
-  {
-    id: 2,
     company: "Flüma Klima AG",
     description: "Unser Partner für alles rund um Lüfungsreinigungen und Inspektionen",
     contact: "Fr. Weber",
     image: "/flüma.png"
   },
   {
-    id: 3,
+    id: 2,
     company: "Swiss Staking AG",
     description: "Gründliche Reinigung der Lüftungsanlage. Junges dynamisches und motiviertes Team!",
     contact: "G. Voutat",
     image: "/swiss-staking.png"
+  },
+  {
+    id: 3,
+    company: "ID Performance AG",
+    description: "Professionelle Reinigung der Lüftungsanlage in 5 Wohnungen in Udligenswil.",
+    contact: "Manfred Moser",
+    image: "/id-performance.png"  // Add your image path
   }
   // Add more references as needed
 ];

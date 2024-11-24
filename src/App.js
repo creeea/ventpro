@@ -10,7 +10,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
         </Routes>
+        <div id="footer">
         <Footer />
+        </div>
+        
       </div>
     </Router>
   );

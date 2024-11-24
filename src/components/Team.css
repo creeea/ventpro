@@ -1,7 +1,7 @@
 .team {
   width: 100%;
   padding: 100px 20px;
-  background-color: #121212;
+  /*background-color: #121212;*/
   min-height: auto;
   display: flex;
   align-items: center;
@@ -93,7 +93,7 @@
 .team-email {
   font-size: 0.9em;
   margin-top: -10px;
-  color: #666;
+  color: #ffffff;
 }
 
 @media (max-width: 1024px) {

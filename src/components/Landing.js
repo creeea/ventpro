@@ -18,6 +18,7 @@ function Landing() {
             <a href="#services" onClick={() => setIsMenuOpen(false)}>Dienstleistungen</a>
             <a href="#references" onClick={() => setIsMenuOpen(false)}>Referenzen</a>
             <a href="#team" onClick={() => setIsMenuOpen(false)}>Team</a>
+            <a href="#footer" onClick={() => setIsMenuOpen(false)}>Kontakt</a>
           </div>
           <div className="mobile-menu-button" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <span></span>
