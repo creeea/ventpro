@@ -1,12 +1,10 @@
 .hero {
-  min-height: 100vh;
   display: flex;
   align-items: flex-start;
   padding: 20px;
   position: relative;
   overflow: hidden;
   margin-top: 0;
-  padding-top: calc(55vh - 80px);
 }
 
 .hero::before {
@@ -50,10 +48,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: calc(25vh - 80px);
-  margin-top: calc(150vh - 80px);  /* This pushes content down */
-  min-height: 60vh;  /* Minimum height of 60% viewport height */
-  padding-bottom: 120px;  /* Add padding at the bottom */
+  min-height: 70vh;  /* Minimum height of 60% viewport height */
   background: none;
 }
 
@@ -61,7 +56,7 @@
   text-align: left;
   padding-left: 80px;
   animation: fadeInUp 1s ease-out;
-  width: 50%;
+  width: 45%;
   max-width: 700px;
 }
 
@@ -104,7 +99,7 @@
 
 @media (max-width: 1200px) {
   .hero-text {
-    width: 60%;
+    width: 80%;
   }
   
   .hero-text h1 {
@@ -148,7 +143,14 @@
   position: relative;
   width: 320px;
   height: 320px;
-  margin-right: 80px;
+  margin-right: 15%;
+}
+
+@media (max-width: 1200px) {
+  .circle-animation {
+    display: none;  /* Hides the element completely */
+  }
+  
 }
 
 .air-dots {
@@ -580,4 +582,48 @@
     pointer-events: all;
   }
 }
+
+
+.hero-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #00AEEF;
+  box-shadow: 0 0 10px rgba(0, 174, 239, 0.3);
+  transition: all 0.3s ease;
+  margin-right: 2rem;
+}
+
+.hero-button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 0 20px rgba(0, 174, 239, 0.5);
+}
+
+.phone-button {
+  background-color: #00AEEF;
+  color: white;
+}
+
+.mail-button {
+  background-color: #00AEEF;
+  color: white;
+}
+
+.contact-prompt {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: white;
+}
+
 

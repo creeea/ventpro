@@ -6,17 +6,16 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h4>VentPro</h4>
-          <p>Professional Ventilation Solutions</p>
+          <h4>Phone</h4>
+          <p>+41 78 331 61 01</p>
         </div>
         <div className="footer-section">
-          <h4>Contact</h4>
+          <h4>Mail</h4>
           <p>info@ventpro.ch</p>
-          <p>+41 XX XXX XX XX</p>
         </div>
         <div className="footer-section">
-          <h4>Follow Us</h4>
-          {/* Add social media links */}
+          <h4>Handelsregister-Nummer</h4>
+          <p>CH-100.4.819.465-1</p>
         </div>
       </div>
       <div className="footer-bottom">

@@ -1,6 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import './References.css';
 
+function AnimatedCounter({ endValue }) {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    if (count < endValue) {
+      const timer = setTimeout(() => {
+        setCount(prev => prev + 3);
+      }, 500); // Adjust speed of counting here
+      return () => clearTimeout(timer);
+    }
+  }, [count, endValue]);
+
+  return <span className="team-size">{count}</span>;
+}
 
 const referencesList = [
   {
@@ -13,16 +27,16 @@ const referencesList = [
   {
     id: 2,
     company: "Flüma Klima AG",
-    description: "Aushilfe Komplette Wartung der Küchenabluftsysteme",
+    description: "Unser Partner für alles rund um Lüfungsreinigungen und Inspektionen",
     contact: "Fr. Weber",
     image: "/flüma.png"
   },
   {
     id: 3,
-    company: "Bürokomplex Zentrum",
-    description: "Jährliche Inspektion und Reinigung der Klimaanlage",
-    contact: "Hr. Schmidt",
-    image: "/images/reference3.jpg"
+    company: "Swiss Staking AG",
+    description: "Gründliche Reinigung der Lüftungsanlage. Junges dynamisches und motiviertes Team!",
+    contact: "G. Voutat",
+    image: "/swiss-staking.png"
   }
   // Add more references as needed
 ];
@@ -44,6 +58,10 @@ function References() {
     <section className="references" id="references">
       <div className="references-container">
         <h2>Referenzen</h2>
+        <div className="team-counter">
+          Teamgrösse: <AnimatedCounter endValue={7} />
+        </div>
+        
         <div className="references-slider">
           <div className="reference-card">
             <img 

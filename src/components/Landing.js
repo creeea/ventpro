@@ -37,6 +37,15 @@ function Landing() {
               Als spezialisiertes Unternehmen in der Lüftungshygiene sind wir auf alles vorbereitet 
               und versprechen unseren Kunden einen hochwertigen Service und saubere Luft.
             </p>
+            <p className="contact-prompt">Melde dich - wir bearbeiten alle Anfragen 24/7</p>
+            <div className="hero-buttons">
+              <a href="tel:+41123456789" className="hero-button">
+                <i className="fas fa-phone"></i> +41 12 345 67 89
+              </a>
+              <a href="mailto:info@ventpro.ch" className="hero-button">
+                <i className="fas fa-envelope"></i> info@ventpro.ch
+              </a>
+            </div>
           </div>
           <div className="circle-animation">
             <div className="rotating-elements">
