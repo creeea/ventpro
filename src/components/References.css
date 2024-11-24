@@ -135,4 +135,38 @@
   font-weight: bold;
   margin-left: 5px;
   color: #007bff; /* Or your preferred accent color */
+}
+
+.metrics-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px 0;
+  gap: 20px;
+}
+
+.metric-item {
+  text-align: center;
+  flex: 1;
+  min-width: 200px;
+  padding: 20px;
+}
+
+.metric-label {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.counter-value {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #007bff; /* Or your preferred accent color */
+}
+
+.metrics-message {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
 } 

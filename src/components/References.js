@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import './References.css';
 
-function AnimatedCounter({ endValue }) {
+function AnimatedCounter({ endValue, suffix = '' }) {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
     if (count < endValue) {
       const timer = setTimeout(() => {
-        setCount(prev => prev + 3);
-      }, 500); // Adjust speed of counting here
+        setCount(prev => Math.min(prev + 2, endValue));
+      }, 100);
       return () => clearTimeout(timer);
     }
   }, [count, endValue]);
 
-  return <span className="team-size">{count}</span>;
+  return <span className="counter-value">{count}{suffix}</span>;
 }
 
 const referencesList = [
@@ -58,8 +58,25 @@ function References() {
     <section className="references" id="references">
       <div className="references-container">
         <h2>Referenzen</h2>
-        <div className="team-counter">
-          Teamgrösse: <AnimatedCounter endValue={7} />
+        
+        <p className="metrics-message">
+          Als dynamisches, wachstumsorientiertes Unternehmen teilen wir unsere Referenzen und Metriken offen und transparent. 
+          Unser Antrieb ist es, durch schnelle, präzise und qualitativ hochwertige Arbeit erfolgreich in der Zentralschweiz zu wachsen.
+        </p>
+        
+        <div className="metrics-container">
+          <div className="metric-item">
+            <div className="metric-label">Gemeinsame Expertise in Lüftungssysteme</div>
+            <AnimatedCounter endValue={25} suffix=" Jahre" />
+          </div>
+          <div className="metric-item">
+            <div className="metric-label">Ausgeführte Aufträge</div>
+            <AnimatedCounter endValue={15} />
+          </div>
+          <div className="metric-item">
+            <div className="metric-label">Teamgrösse</div>
+            <AnimatedCounter endValue={7} />
+          </div>
         </div>
         
         <div className="references-slider">

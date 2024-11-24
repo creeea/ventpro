@@ -596,7 +596,7 @@
   background-color: transparent;
   color: white;
   border: 2px solid #00AEEF;
-  box-shadow: 0 0 10px rgba(0, 174, 239, 0.3);
+  box-shadow: 0 0 500px 0 #f0f0f0;
   transition: all 0.3s ease;
   margin-right: 2rem;
 }

@@ -49,7 +49,7 @@
   width: auto;
   height: auto;
   object-fit: contain;
-  box-shadow: 0 0 20px 0 #f0f0f0;
+  box-shadow: 0 0 500px 0 #f0f0f0;
 }
 
 .service-card h3 {
