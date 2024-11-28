@@ -258,18 +258,31 @@
   animation: segmentGlow 2s ease-in-out infinite;
 }
 
-/* Add glowing animation */
+.segment::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: #00AEEF;
+  border-radius: 50%;
+  top: 59%;
+  right: 50%;
+  transform: translate(160px, -100px);
+  box-shadow: 0 0 10px #00AEEF;
+  animation: inherit;
+}
+
 @keyframes segmentGlow {
   0% {
-    opacity: 0.6;
+    opacity: 1;
     filter: drop-shadow(0 0 5px rgba(0, 174, 239, 0.3));
   }
   50% {
-    opacity: 1;
+    opacity: 0.95;
     filter: drop-shadow(0 0 15px rgba(0, 174, 239, 0.6));
   }
   100% {
-    opacity: 0.6;
+    opacity: 1;
     filter: drop-shadow(0 0 5px rgba(0, 174, 239, 0.3));
   }
 }
@@ -346,114 +359,7 @@
   }
 }
 
-.team {
-  padding: 100px 20px;
-  background-color: #121212;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-}
 
-.team-container {
-  max-width: 1400px;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.team h2 {
-  text-align: center;
-  color: #fff;
-  font-size: 3rem;
-  margin-bottom: 80px;
-  font-weight: 600;
-}
-
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 60px;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.team-item {
-  background: #1a1a1a;
-  padding: 40px;
-  border-radius: 15px;
-  text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.team-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 174, 239, 0.1);
-}
-
-.team-icon {
-  width: 180px;
-  height: 180px;
-  margin: 0 auto 30px;
-  background: #232323;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid #00AEEF;
-}
-
-.team-item h3 {
-  color: #00AEEF;
-  font-size: 1.8rem;
-  margin-bottom: 15px;
-  font-weight: 600;
-}
-
-.team-position {
-  color: #fff;
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-  font-weight: 500;
-}
-
-.team-description {
-  color: #888;
-  font-size: 1.1rem;
-  line-height: 1.8;
-  margin: 0;
-}
-
-@media (max-width: 1024px) {
-  .team-grid {
-    gap: 40px;
-    padding: 20px;
-  }
-  
-  .team-item {
-    padding: 30px;
-  }
-}
-
-@media (max-width: 768px) {
-  .team-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .team {
-    padding: 80px 20px;
-  }
-  
-  .team h2 {
-    font-size: 2.5rem;
-    margin-bottom: 60px;
-  }
-  
-  .team-icon {
-    width: 150px;
-    height: 150px;
-  }
-}
 
 /* Add after hero-content styles */
 .hero-separator {
@@ -627,5 +533,7 @@
   font-weight: 600;
   color: white;
 }
+
+
 
 
