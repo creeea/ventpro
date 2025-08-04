@@ -1,6 +1,6 @@
 .references {
   width: 100%;
-  padding: 100px 20px;
+  padding: 30px 20px;
   /*background-color: #121212;*/
   min-height: auto;
   display: flex;
@@ -140,27 +140,27 @@
 
 .metrics-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 40px 0;
-  gap: 20px;
+  gap: 60px;
 }
 
 .metric-item {
   text-align: center;
-  flex: 1;
+  flex: 0 1 auto;
   min-width: 200px;
   padding: 20px;
 }
 
 .metric-label {
-  font-size: 1.1em;
+  font-size: 1.3em;
   margin-bottom: 10px;
-  color: #666;
+  color: #ffffff;
 }
 
 .counter-value {
-  font-size: 2.5em;
+  font-size: 3.2em;
   font-weight: bold;
   color: #00AEEF; /* Or your preferred accent color */
 }
@@ -170,4 +170,57 @@
   max-width: 800px;
   margin: 0 auto 2rem;
   line-height: 1.6;
+}
+
+.partners-layout {
+  display: flex;
+  gap: 30px;
+  margin: 2rem auto;
+  max-width: 1200px;
+  align-items: flex-start;
+}
+
+.partner-description-card {
+  background-color: #242424;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #333;
+  width: 70%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.partner-description-card p {
+  color: #f0f0f0;
+  line-height: 1.75;
+  text-align: left;
+  font-size: 1.25rem;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.partner-images-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 30%;
+}
+
+.partner-image-card {
+  background-color: #242424;
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 120px;
+}
+
+.partner-image-card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 } 

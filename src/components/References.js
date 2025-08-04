@@ -16,91 +16,39 @@ function AnimatedCounter({ endValue, suffix = '' }) {
   return <span className="counter-value">{count}{suffix}</span>;
 }
 
-const referencesList = [
-  {
-    id: 1,
-    company: "Flüma Klima AG",
-    description: "Unser Partner für alles rund um Lüfungsreinigungen und Inspektionen",
-    contact: "Fr. Weber",
-    image: "/flüma.png"
-  },
-  {
-    id: 2,
-    company: "Swiss Staking AG",
-    description: "Gründliche Reinigung der Lüftungsanlage. Junges dynamisches und motiviertes Team!",
-    contact: "G. Voutat",
-    image: "/swiss-staking.png"
-  },
-  {
-    id: 3,
-    company: "ID Performance AG",
-    description: "Professionelle Reinigung der Lüftungsanlage in 5 Wohnungen in Udligenswil.",
-    contact: "Manfred Moser",
-    image: "/id-performance.png"  // Add your image path
-  }
-  // Add more references as needed
-];
-
 function References() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => 
-        prevIndex === referencesList.length - 1 ? 0 : prevIndex + 1
-      );
-    }, 10000); // Rotate every 10 seconds
-
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <section className="references" id="references">
       <div className="references-container">
-        <h2>Referenzen</h2>
+        <h2>Unsere Partner</h2>
         
-        <p className="metrics-message">
-          Als dynamisches, wachstumsorientiertes Unternehmen teilen wir unsere Referenzen und Metriken offen und transparent. 
-          Unser Antrieb ist es, durch schnelle, präzise und qualitativ hochwertige Arbeit erfolgreich in der Zentralschweiz zu wachsen.
-        </p>
+        <div className="partners-layout">
+          <div className="partner-description-card">
+            <p>
+              In der Zentralschweiz arbeiten wir eng mit führenden Unternehmen unterschiedlichster Branchen zusammen. Besonders stolz sind wir auf unsere Partnerschaften mit Flüma Klima AG und Anis Lufttechnik GmbH – zwei etablierte Namen in der Klima- und Lüftungstechnik. Diese Kooperationen stehen für Vertrauen, Qualität und gemeinsame Werte.
+              Mit unseren Partnern setzen wir neue Standards in der Lüftungshygiene und entwickeln nachhaltige Lösungen für saubere, gesunde Luft – heute und in Zukunft.
+            </p>
+          </div>
+          
+          <div className="partner-images-container">
+            <div className="partner-image-card">
+              <img src={process.env.PUBLIC_URL + '/flüma4.png'} alt="Flüma Klima AG" />
+            </div>
+            <div className="partner-image-card">
+              <img src={process.env.PUBLIC_URL + '/anis.png'} alt="Anis" />
+            </div>
+          </div>
+        </div>
         
         <div className="metrics-container">
           <div className="metric-item">
-            <div className="metric-label">Gemeinsame Expertise in Lüftungssysteme</div>
+            <div className="metric-label">Expertise in Lüftungssysteme</div>
             <AnimatedCounter endValue={25} suffix=" Jahre" />
           </div>
           <div className="metric-item">
             <div className="metric-label">Ausgeführte Aufträge</div>
-            <AnimatedCounter endValue={15} />
-          </div>
-          <div className="metric-item">
-            <div className="metric-label">Teamgrösse</div>
-            <AnimatedCounter endValue={7} />
-          </div>
-        </div>
-        
-        <div className="references-slider">
-          <div className="reference-card">
-            <img 
-              src={referencesList[currentIndex].image} 
-              alt={referencesList[currentIndex].company} 
-            />
-            <div className="reference-content">
-              <h3>{referencesList[currentIndex].company}</h3>
-              <p>{referencesList[currentIndex].description}</p>
-              <span className="reference-contact">
-                {referencesList[currentIndex].contact}
-              </span>
-            </div>
-          </div>
-          <div className="reference-indicators">
-            {referencesList.map((_, index) => (
-              <span 
-                key={index} 
-                className={`indicator ${index === currentIndex ? 'active' : ''}`}
-                onClick={() => setCurrentIndex(index)}
-              />
-            ))}
+            <AnimatedCounter endValue={57} />
           </div>
         </div>
       </div>

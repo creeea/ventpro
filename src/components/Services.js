@@ -7,25 +7,34 @@ function Services() {
       <h2>Unsere Dienstleistungen</h2>
       <div className="services-grid">
         <div className="service-card">
-          <div className="service-icon">
-            <img src={process.env.PUBLIC_URL + '/192hygiene.png'} alt="Hygiene Service" />
-          </div>
-          <h3>Reinigung</h3>
-          <p>Ein Mensch atmet täglich 12.000 Liter Luft ein - 90% davon in Innenräumen. Verschmutzte Lüftungsanlagen werden zu stillen Gesundheitsrisiken, wenn sich Mikroorganismen, Bakterien und Schimmelpilze ungehindert vermehren. Unsere professionelle RLT-Anlagenreinigung verhindert die Verteilung dieser Schadstoffe in Ihrer Atemluft. Wir garantieren gesunde Raumluft – ob im Büro, in der Produktion oder zu Hause!</p>
+          <div className="service-number">1</div>
+          <h3>Hygiene-<br />Inspektion</h3>
+          <p>Professionelle Inspektion Ihrer Lüftungsanlagen nach VDI 6022. Wir identifizieren potenzielle Gesundheitsrisiken und stellen sicher, dass Ihre Anlagen den gesetzlichen Standards entsprechen.</p>
         </div>
         <div className="service-card">
-        <div className="service-icon">
-        <img src={process.env.PUBLIC_URL + '/192inspektion.png'} alt="Inspektion Service" />
-        </div>
-          <h3>Inspektion</h3>
-          <p>Kritische Keimbelastungen in RLT-Anlagen bleiben oft unentdeckt – mit schwerwiegenden Folgen für Gesundheit und Betriebssicherheit. Unsere nach VDI 6022 zertifizierten Hygieneinspektionen decken durch mikrobiologische Proben Grenzwertüberschreitungen auf und sichern die Einhaltung gesetzlicher Standards. Wissenschaftlich fundiert, normgerecht, präventiv.</p>
+          <div className="service-number">2</div>
+          <h3>Desinfektion von Lüftungsanlagen</h3>
+          <p>Gründliche Desinfektion zur Beseitigung von Keimen, Bakterien und Schimmelpilzen. Wir sorgen für hygienisch einwandfreie Luftqualität in Ihren Räumen.</p>
         </div>
         <div className="service-card">
-          <div className="service-icon">
-        <img src={process.env.PUBLIC_URL + '/192zusammenarbeit.png'} alt="Beratung Service" />
+          <div className="service-number">3</div>
+          <h3>Reinigung<br />KWL</h3>
+          <p>Spezialisierte Reinigung von kontrollierten Wohnraumlüftungsanlagen. Wir gewährleisten optimale Luftqualität und Energieeffizienz für Ihr Zuhause.</p>
         </div>
-          <h3>Beratung</h3>
-          <p>Ihr Projekt beginnt mit einem persönlichen Gespräch. Gemeinsam entwickeln wir die optimale Strategie für Ihre Anlage. Unser spezialisiertes Team, modernste Technik und jahrelange Erfahrung garantieren einen reibungslosen Ablauf – angepasst an Ihre individuellen Anforderungen und Betriebszeiten. Unkompliziert, transparent, effektiv.</p>
+        <div className="service-card">
+          <div className="service-number">4</div>
+          <h3>Reinigung Industrie & Gewerbeanlage</h3>
+          <p>Umfassende Reinigung von industriellen und gewerblichen Lüftungsanlagen. Angepasst an Ihre spezifischen Anforderungen und Betriebszeiten.</p>
+        </div>
+        <div className="service-card">
+          <div className="service-number">5</div>
+          <h3>Reinigung<br />WC-Anlage</h3>
+          <p>Hygienische Reinigung von WC-Lüftungsanlagen. Wir beseitigen Gerüche und sorgen für ein angenehmes Raumklima in Sanitäranlagen.</p>
+        </div>
+        <div className="service-card">
+          <div className="service-number">6</div>
+          <h3>Kamera-<br />Inspektion</h3>
+          <p>Moderne Kameratechnik zur detaillierten Inspektion Ihrer Lüftungsanlagen. Wir machen das Unsichtbare sichtbar und dokumentieren den Zustand professionell.</p>
         </div>
       </div>
     </section>
