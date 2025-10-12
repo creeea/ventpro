@@ -26,8 +26,8 @@ function References() {
         <div className="partners-layout">
           <div className="partner-description-card">
             <p>
-              In der Zentralschweiz arbeiten wir eng mit führenden Unternehmen unterschiedlichster Branchen zusammen. Besonders stolz sind wir auf unsere Partnerschaften mit Flüma Klima AG und Anis Lufttechnik GmbH – zwei etablierte Namen in der Klima- und Lüftungstechnik. Diese Kooperationen stehen für Vertrauen, Qualität und gemeinsame Werte.
-              Mit unseren Partnern setzen wir neue Standards in der Lüftungshygiene und entwickeln nachhaltige Lösungen für saubere, gesunde Luft – heute und in Zukunft.
+              In der Zentralschweiz arbeiten wir eng mit führenden Unternehmen unterschiedlichster Branchen zusammen. Besonders stolz sind wir auf unsere Partnerschaften mit Flüma Klima AG und Anis Lufttechnik GmbH, zwei etablierte Namen in der Klima- und Lüftungstechnik. Diese Kooperationen stehen für Vertrauen, Qualität und gemeinsame Werte.
+              Mit unseren Partnern setzen wir neue Standards in der Lüftungshygiene und entwickeln nachhaltige Lösungen für saubere Luft.
             </p>
           </div>
           
@@ -43,12 +43,12 @@ function References() {
         
         <div className="metrics-container">
           <div className="metric-item">
-            <div className="metric-label">Expertise in Lüftungssysteme</div>
+            <div className="metric-label">Erfahrung in der Lüftungsbranche</div>
             <AnimatedCounter endValue={25} suffix=" Jahre" />
           </div>
           <div className="metric-item">
             <div className="metric-label">Ausgeführte Aufträge</div>
-            <AnimatedCounter endValue={57} />
+            <AnimatedCounter endValue={87} />
           </div>
         </div>
       </div>

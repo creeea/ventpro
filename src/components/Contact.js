@@ -9,7 +9,7 @@ function Contact() {
         <div className="contact-info">
           <h3>Get in Touch</h3>
           <p>Email: info@ventpro.ch</p>
-          <p>Phone: +41 XX XXX XX XX</p>
+          <p>Kontakt: +41 XX XXX XX XX</p>
           <p>Address: Your Address Here</p>
         </div>
         <form className="contact-form">

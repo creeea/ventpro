@@ -33,12 +33,12 @@ function Landing() {
           <div className="hero-text">
             <h1>Ihr Fachexperte für <span className="highlighted-text-no-underline">Lüftungshygiene</span></h1>
             <p className="hero-description">
-              Ob einfache Lüftungsanlage oder komplexes System: Als erfahrene Spezialisten in der Lüftungshygiene garantieren wir Ihnen nicht nur höchste Reinigungsstandards, sondern auch einen Service, der überzeugt – professionell, zuverlässig und mit dem Blick fürs Detail.
+              Ob einfache Lüftungsanlagen oder komplexe Systeme. Als erfahrene Spezialisten in der Lüftungshygiene garantieren wir Ihnen nicht nur höchste Reinigungsstandards, sondern auch einen Service der professionell überzeugt.
             </p>
-            <p className="contact-prompt">Kontaktieren Sie uns – wir sind rund um die Uhr für Sie da.</p>
+            <p className="contact-prompt">Kontaktieren Sie uns, wir sind gerne für Sie da.</p>
             <div className="hero-buttons">
               <a href="tel:+41783316102" className="hero-button">
-                <i className="fas fa-phone"></i> +41 78 331 61 02
+                <i className="fas fa-phone"></i> +41 78 331 61 01
               </a>
               <a href="mailto:info@ventpro.ch" className="hero-button">
                 <i className="fas fa-envelope"></i> info@ventpro.ch

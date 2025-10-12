@@ -134,7 +134,7 @@
   background: #232323;
   border-radius: 50%;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   border: 2px solid #00AEEF;
   overflow: hidden;
@@ -173,6 +173,54 @@
   font-size: 0.9em;
   margin-top: -10px;
   color: #ffffff;
+}
+
+.team-phone {
+  font-size: 0.9em;
+  margin-top: 5px;
+  color: #00AEEF;
+  font-weight: 500;
+}
+
+.education-section {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.education-card {
+  background-color: #242424;
+  border: 1px solid #00AEEF;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin: 0 auto;
+  max-width: 280px;
+  box-shadow: 0 2px 8px rgba(0, 174, 239, 0.1);
+}
+
+.education-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.education-list li {
+  color: #f0f0f0;
+  font-size: 0.85rem;
+  margin-bottom: 6px;
+  padding-left: 15px;
+  position: relative;
+  line-height: 1.4;
+}
+
+.education-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #00AEEF;
+  font-weight: bold;
+  font-size: 1rem;
+  display: block;
 }
 
 @media (max-width: 1024px) {
