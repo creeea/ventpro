@@ -33,3 +33,14 @@
 .footer-link:hover {
   color: #ffffff;
 }
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 40px 15px 20px;
+  }
+
+  .footer-content {
+    text-align: center;
+    gap: 12px;
+  }
+}

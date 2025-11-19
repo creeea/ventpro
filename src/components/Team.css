@@ -253,3 +253,27 @@
     height: 150px;
   }
 }
+
+@media (max-width: 600px) {
+  .team {
+    padding: 60px 15px;
+  }
+
+  .team h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .team-item {
+    padding: 25px 18px 30px;
+  }
+
+  .team-description-card {
+    padding: 30px 20px;
+    height: auto;
+  }
+
+  .education-card {
+    max-width: 100%;
+  }
+}

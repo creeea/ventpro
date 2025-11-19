@@ -126,6 +126,53 @@
   }
 }
 
+@media (max-width: 600px) {
+  .references h2 {
+    font-size: 2rem;
+  }
+
+  .partners-layout {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .partner-description-card,
+  .partner-images-container,
+  .partner-image-card {
+    width: 100%;
+  }
+
+  .partner-description-card {
+    padding: 25px 20px;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .partner-description-card p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .partner-images-container {
+    gap: 15px;
+  }
+
+  .partner-images-container {
+    display: none;
+  }
+
+  .metrics-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .metric-item {
+    width: 100%;
+    padding: 10px 0;
+  }
+}
+
 .team-counter {
   text-align: center;
   margin: 20px 0;
@@ -184,8 +231,7 @@
   background-color: #242424;
   padding: 30px;
   border-radius: 15px;
-  border: 2px solid #00AEEF;
-  box-shadow: 0 0 20px rgba(0, 174, 239, 0.2);
+  border: 1px solid #333;
   width: 70%;
   height: 300px;
   display: flex;
@@ -227,3 +273,15 @@
   max-height: 100%;
   object-fit: contain;
 } 
+.partner-link-hint {
+  font-size: 0.95rem;
+  color: #00AEEF;
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .partner-images-container {
+    display: none !important;
+  }
+}
+

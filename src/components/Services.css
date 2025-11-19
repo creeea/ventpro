@@ -110,3 +110,31 @@
   }
 }
 
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+    gap: 20px;
+  }
+
+  .services-section h2 {
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+  }
+
+  .service-card {
+    text-align: left;
+    padding: 20px 18px 25px;
+  }
+
+  .service-card h3 {
+    min-height: auto;
+    font-size: 1.3rem;
+  }
+
+  .service-card p {
+    font-size: 1.05rem;
+    min-height: auto;
+  }
+}
+
