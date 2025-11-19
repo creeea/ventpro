@@ -33,7 +33,7 @@ function Landing() {
           <div className="hero-text">
             <h1>Ihr Fachexperte für <span className="highlighted-text-no-underline">Lüftungshygiene</span></h1>
             <p className="hero-description">
-              Ob einfache Lüftungsanlagen oder komplexe Systeme. Als erfahrene Spezialisten in der Lüftungshygiene garantieren wir Ihnen nicht nur höchste Reinigungsstandards, sondern auch einen professionell Service der überzeugt.
+              Ob einfache Lüftungsanlagen oder komplexe Systeme. Als erfahrene Spezialisten in der Lüftungshygiene garantieren wir Ihnen nicht nur höchste Reinigungsstandards, sondern auch einen professionellen Service der überzeugt.
             </p>
             <p className="contact-prompt">Kontaktieren Sie uns, wir sind gerne für Sie da.</p>
             <div className="hero-buttons">

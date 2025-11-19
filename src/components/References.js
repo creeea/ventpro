@@ -26,7 +26,7 @@ function References() {
         <div className="partners-layout">
           <div className="partner-description-card">
             <p>
-              In der Zentralschweiz arbeiten wir eng mit führenden Unternehmen unterschiedlichster Branchen zusammen. Besonders stolz sind wir auf unsere Partnerschaften mit Flüma Klima AG. Diese Kooperation steht für Vertrauen, Qualität und gemeinsame Werte.
+              In der Zentralschweiz arbeiten wir eng mit führenden Unternehmen unterschiedlichster Branchen zusammen. Besonders stolz sind wir auf unsere Partnerschaft mit Flüma Klima AG. Diese Kooperation steht für Vertrauen, Qualität und gemeinsame Werte.
             </p>
           </div>
           
