@@ -21,22 +21,25 @@ function References() {
   return (
     <section className="references" id="references">
       <div className="references-container">
-        <h2>Unsere Partner</h2>
+        <h2>Unser Partner</h2>
         
         <div className="partners-layout">
           <div className="partner-description-card">
             <p>
-              In der Zentralschweiz arbeiten wir eng mit führenden Unternehmen unterschiedlichster Branchen zusammen. Besonders stolz sind wir auf unsere Partnerschaften mit Flüma Klima AG und Anis Lufttechnik GmbH, zwei etablierte Namen in der Klima- und Lüftungstechnik. Diese Kooperationen stehen für Vertrauen, Qualität und gemeinsame Werte.
-              Mit unseren Partnern setzen wir neue Standards in der Lüftungshygiene und entwickeln nachhaltige Lösungen für saubere Luft.
+              In der Zentralschweiz arbeiten wir eng mit führenden Unternehmen unterschiedlichster Branchen zusammen. Besonders stolz sind wir auf unsere Partnerschaften mit Flüma Klima AG. Diese Kooperation steht für Vertrauen, Qualität und gemeinsame Werte.
             </p>
           </div>
           
           <div className="partner-images-container">
             <div className="partner-image-card">
-              <img src={process.env.PUBLIC_URL + '/flüma4.png'} alt="Flüma Klima AG" />
-            </div>
-            <div className="partner-image-card">
-              <img src={process.env.PUBLIC_URL + '/anis.png'} alt="Anis" />
+              <a
+                href="https://www.fluema.ch/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Flüma Klima AG Website"
+              >
+                <img src={process.env.PUBLIC_URL + '/flüma4.png'} alt="Flüma Klima AG" />
+              </a>
             </div>
           </div>
         </div>

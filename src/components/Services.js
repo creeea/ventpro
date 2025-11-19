@@ -33,7 +33,7 @@ function Services() {
         
         <div className="service-card">
           <h3>Kamera-Inspektion</h3>
-          <p>Moderne Kameratechnik für präzise Einblicke in Ihre Lüftungsanlagen; wir machen das Unsichtbare sichtbar.</p>
+          <p>Moderne Kameratechnik für präzise Einblicke in Ihre Lüftungsanlagen. Wir machen das Unsichtbare sichtbar.</p>
         </div>
       </div>
     </section>

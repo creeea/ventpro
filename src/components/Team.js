@@ -22,6 +22,7 @@ const Team = () => {
                 <ul className="education-list">
                   <li>Hygieneinspektor A</li>
                   <li>Sanitärinstallateur EFZ</li>
+                  <li>Anschlussbewilligung Niv 15</li>
                   <li>Servicetechniker Lüftung & Klima</li>
                 </ul>
               </div>
@@ -43,7 +44,7 @@ const Team = () => {
                   <li>Hygieneinspektor A</li>
                   <li>Lüftungsanlagenbauer EFZ</li>
                   <li>Gebäudetechnikplaner Lüftung EFZ</li>
-                  <li>Dipl. Gebäudetechniker/in HF mit Schwerpunkt Klima (in Ausbildung)</li>
+                  <li>Dipl. Gebäudetechniker HF mit Schwerpunkt Klima (in Ausbildung)</li>
                 </ul>
               </div>
             </div>
