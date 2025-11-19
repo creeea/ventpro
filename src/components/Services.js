@@ -27,13 +27,13 @@ function Services() {
         </div>
         
         <div className="service-card">
-          <h3>Reinigung WC-Anlage</h3>
+          <h3>Reinigung WC-Lüftungsanlagen</h3>
           <p>Hygienische Reinigung von WC-Lüftungsanlagen. Wir beseitigen Gerüche und sorgen für ein angenehmes Raumklima.</p>
         </div>
         
         <div className="service-card">
           <h3>Kamera-Inspektion</h3>
-          <p>Moderne Kameratechnik für präzise Einblicke in Ihre Lüftungsanlagen. Wir machen das Unsichtbare sichtbar.</p>
+          <p>Moderne Kameratechnik für präzise Einblicke in Ihre Lüftungsanlagen mit Fotodokumentation. Wir machen das Unsichtbare sichtbar.</p>
         </div>
       </div>
     </section>

@@ -18,7 +18,30 @@ function Footer() {
           <p>Kleinwilhöhe 2<br />6048 Horw</p>
         </div>
         <div className="footer-section">
-          <p><a href="https://ventpro.ch/agb" className="footer-link" target="_blank" rel="noopener noreferrer">AGB</a></p>
+          <h4>Über Uns</h4>
+          <p>
+            <a
+              href={`${process.env.PUBLIC_URL}/Vorstellung Ventpro.pdf`}
+              className="footer-text-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Vorstellung Ventpro
+            </a>
+          </p>
+        </div>
+        <div className="footer-section">
+          <h4>AGB</h4>
+          <p>
+            <a
+              href={`${process.env.PUBLIC_URL}/AGB_Ventpro_GmbH.pdf`}
+              className="footer-text-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              AGB von Ventpro
+            </a>
+          </p>
         </div>
       </div>
       <div className="footer-bottom">
