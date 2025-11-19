@@ -44,7 +44,7 @@
 }
 
 .reference-card img {
-  width: 300px;
+  width: 350px;
   height: 200px;
   object-fit: cover;
   border-radius: 5px;
@@ -133,29 +133,32 @@
 
   .partners-layout {
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
   }
 
   .partner-description-card,
   .partner-images-container,
   .partner-image-card {
     width: 100%;
+    max-width: 320px;
   }
 
   .partner-description-card {
     padding: 25px 20px;
-    height: 400px;
+    height: auto;
     text-align: center;
     justify-content: center;
+    margin: 0 auto;
   }
 
   .partner-description-card p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: center;
   }
 
   .partner-images-container {
     gap: 15px;
+    align-items: center;
   }
 
   .partner-images-container {
@@ -165,11 +168,24 @@
   .metrics-container {
     flex-direction: column;
     gap: 30px;
+    align-items: center;
+    text-align: center;
   }
 
   .metric-item {
     width: 100%;
+    max-width: 320px;
     padding: 10px 0;
+  }
+
+  .metric-label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .metric-label::after {
+    content: attr(data-second-line);
   }
 }
 
@@ -233,7 +249,7 @@
   border-radius: 15px;
   border: 1px solid #333;
   width: 70%;
-  height: 300px;
+  height: 350px;
   display: flex;
   align-items: center;
 }

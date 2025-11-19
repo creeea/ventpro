@@ -140,8 +140,8 @@
   }
   
   .hero-content {
-    padding-top: 120px;
-    margin-top: 60px;
+    padding-top: 0;
+    margin-top: 0;
   }
 }
 
@@ -604,11 +604,19 @@
     width: 100%;
     flex-direction: column;
     gap: 0.75rem;
+    align-items: flex-start;
   }
 
   .hero-button {
-    width: 100%;
+    width: auto;
+    min-width: 160px;
     margin-right: 0;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.7rem;
+    border-width: 1px;
+    border-radius: 2px;
+    box-shadow: none;
+    align-self: flex-start;
   }
 
   .navbar {

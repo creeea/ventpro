@@ -115,6 +115,7 @@
     grid-template-columns: 1fr;
     padding: 0 10px;
     gap: 20px;
+    justify-items: center;
   }
 
   .services-section h2 {
@@ -125,6 +126,8 @@
   .service-card {
     text-align: left;
     padding: 20px 18px 25px;
+    width: 100%;
+    max-width: 340px;
   }
 
   .service-card h3 {

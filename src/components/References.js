@@ -46,7 +46,10 @@ function References() {
         
         <div className="metrics-container">
           <div className="metric-item">
-            <div className="metric-label">Erfahrung in der Lüftungsbranche</div>
+            <div className="metric-label">
+              <span>Erfahrung in der</span>{' '}
+              <span className="metric-label-break">Lüftungsbranche</span>
+            </div>
             <AnimatedCounter endValue={25} suffix=" Jahre" />
           </div>
           <div className="metric-item">
